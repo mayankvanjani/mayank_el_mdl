@@ -17,7 +17,7 @@ box 0 0 20 50 200 40
 pop
 push
 move -100 150 0
-rotate -50
+rotate x -50
 box -50 0 0 50 200 40
 #right leg
 pop
@@ -32,4 +32,3 @@ move -100 -150 0
 rotate x 20
 box 0 0 20 60 100 40
 display
-quit

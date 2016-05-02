@@ -132,10 +132,17 @@ case "push"
     case SAVE://
       save_extension( t, op[i].op.save.p -> name );
       break;
-    case DISPLAY:
+    case DISPLAY://
       display( t );
       break;
-
+      /*
+    case QUIT://
+      return;
+      */
+    case COMMENT://
+      printf("Invalid statement\n");
+      break;
+      
     default:
       break;
     }
